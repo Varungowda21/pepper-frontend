@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center the cards */
+  padding: 20px; /* Add padding to the container */
+}
+
+.card-item {
+  margin: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better appearance */
+  transition: transform 0.3s ease;
+}
+
+.card-item:hover {
+  transform: scale(1.05); /* Slightly enlarge card on hover */
+}

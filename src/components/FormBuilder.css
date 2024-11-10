@@ -1,0 +1,19 @@
+.input-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  position: relative;
+}
+
+.input-card button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  margin: 5px;
+}
+
+h3 {
+  font-size: 24px;
+}
