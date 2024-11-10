@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:3118",
+  baseURL: "https://pepper-backend-qjw7.onrender.com",
 });
